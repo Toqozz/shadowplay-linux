@@ -2,7 +2,7 @@
 
 INC=0
 HOME=$HOME
-INSTALL="/home/toqoz/git/ffmpeg/bin/ffmpeg"
+INSTALL="${HOME}/git/ffmpeg/bin/ffmpeg"
 
 
 function gloom {
