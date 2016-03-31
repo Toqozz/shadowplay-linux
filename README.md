@@ -16,6 +16,9 @@ Default save time is 3 minutes, change it on line 13..
 
 `./gloom.sh`
 
+Press q in the terminal to save the last 3 minutes.
+
+
 That's it.  Videos are saved in ~/Videos/
 
 The script has no knowledge of what has been recorded on previous run. i.e. gloom-0.mp4 will be the first write even if files have already been saved under that name before.
