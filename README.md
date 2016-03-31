@@ -6,11 +6,11 @@ basic shadowplay-like functionality with nvenc.
 
 The script is only barebones right now.
 
-Point INSTALL (line 5) to your ffmpeg executable (built with nvenc support).
+Point `INSTALL (line 5)` to your ffmpeg executable (built with nvenc support).
 
-Change -s 2560x1440 (line 9) to your resolution.  (X11 resolution, not the resolution the game is being run at).
+Change `-s 2560x1440 (line 9)` to your resolution.  (X11 resolution, not the resolution the game is being run at).
 
-Default save time is 3 minutes, change it on line 13..
+Default save time is 3 minutes, change it on line 13.
 
 ## usage
 
