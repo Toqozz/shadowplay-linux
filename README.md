@@ -18,4 +18,4 @@ Default save time is 3 minutes, change it on line 13..
 
 That's it.  Videos are saved in ~/Videos/
 
-The script has no knowledge of what has been recorded on previous run. i.e. gloom-0.mp4 will be the first write if it has not been moved since the previous run.
+The script has no knowledge of what has been recorded on previous run. i.e. gloom-0.mp4 will be the first write even if files have already been saved under that name before.
