@@ -1,12 +1,14 @@
 #! /bin/bash
 
+set -eu
+
 INC=0
 HOME=$HOME
-INSTALL="${HOME}/git/ffmpeg/bin/ffmpeg"
+INSTALL="ffmpeg"
 
 
 function gloom {
-    ${INSTALL} -f pulse -i 0 -f x11grab -r 30 -s 2560x1440 -i :0.0 -vcodec nvenc -preset hq -minrate 1000k -maxrate 5000k -profile:v high -acodec aac -pix_fmt yuv420p /tmp/out.mp4 &&
+    ${INSTALL} -f pulse -i 0 -f x11grab -r 30 -s 2560x1440 -i :0.0 -vcodec h264_nvenc -preset default -gpu 0 -bit_rate 5000 -profile:v main -acodec aac -pix_fmt nv12 /tmp/out.mp4 &&
 
     FILE="${HOME}/Videos/gloom-${INC}.mp4"
 
