@@ -21,4 +21,6 @@ Press q in the terminal to save the last 3 minutes.
 
 That's it.  Videos are saved in ~/Videos/
 
-The script has no knowledge of what has been recorded on previous run. i.e. gloom-0.mp4 will be the first write even if files have already been saved under that name before.
+## notes
+
+When recording for a really long time you might have problems saving, because ffmpeg then has to cut a very large video down to the time.
