@@ -24,3 +24,5 @@ That's it.  Videos are saved in ~/Videos/
 ## notes
 
 When recording for a really long time you might have problems saving, because ffmpeg then has to cut a very large video down to the time.
+
+Honestly this is a pretty significant issue and you probably want to use [ShadowRePlay-Linux](https://github.com/MAPReiff/ShadowRePlay-Linux) instead, which seems to resolve the issue and also handles non-nvidia gpus!
